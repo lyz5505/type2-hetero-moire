@@ -1,0 +1,99 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{3}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Furness}\ \emph {et~al.}(2020)\citenamefont
+  {Furness}, \citenamefont {Kaplan}, \citenamefont {Ning}, \citenamefont
+  {Perdew},\ and\ \citenamefont {Sun}}]{furness2020accurate}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Furness}}, \bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont {Kaplan}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ning}}, \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Perdew}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Sun}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {The journal of physical chemistry letters}\
+  }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {8208} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Batzner}\ \emph {et~al.}(2022)\citenamefont
+  {Batzner}, \citenamefont {Musaelian}, \citenamefont {Sun}, \citenamefont
+  {Geiger}, \citenamefont {Mailoa}, \citenamefont {Kornbluth}, \citenamefont
+  {Molinari}, \citenamefont {Smidt},\ and\ \citenamefont
+  {Kozinsky}}]{Batzner2022NequIP}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Batzner}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Musaelian}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Sun}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Geiger}}, \bibinfo {author} {\bibfnamefont
+  {J.~P.}\ \bibnamefont {Mailoa}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Kornbluth}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Molinari}}, \bibinfo {author} {\bibfnamefont {T.~E.}\
+  \bibnamefont {Smidt}},\ and\ \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Kozinsky}},\ }\href
+  {https://doi.org/10.1038/s41467-022-29939-5} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {2453} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2025)\citenamefont {Liu},
+  \citenamefont {Aryal}, \citenamefont {Yang}, \citenamefont {C{\u a}lug{\u
+  a}ru}, \citenamefont {Fang}, \citenamefont {Hu}, \citenamefont {Yan},
+  \citenamefont {Bernevig},\ and\ \citenamefont {Liu}}]{Liu2025IdealTHF}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Aryal}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Yang}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {C{\u a}lug{\u a}ru}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Fang}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Hu}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Yan}}, \bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont {Bernevig}},\
+  and\ \bibinfo {author} {\bibfnamefont {C.-X.}\ \bibnamefont {Liu}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint}\ }
+  (\bibinfo {year} {2025})},\ \Eprint {https://arxiv.org/abs/2507.06168}
+  {arXiv:2507.06168} \BibitemShut {NoStop}%
+\end{thebibliography}%

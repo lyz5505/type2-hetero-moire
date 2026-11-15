@@ -1,0 +1,2 @@
+# keep Mathematica notebooks byte-for-byte (the front end uses byte offsets)
+*.nb binary
